@@ -1,0 +1,5 @@
+z=complex(input())
+abs(z)
+z.conjugate()
+print(z.conjugate())
+print(abs(z))
