@@ -25,13 +25,13 @@ def danewykres():
         s.append(v0x*i)
         Sy.append(v0y * i - (g*(i**2)) / 2)
 
-fig, (ax1, ax2, ax3, ax4) = plt.subplots(4)
+fig, (ax1, ax2, ax3) = plt.subplots(3)
 
 danewykres()
 ax1.plot(T, vy) # wykres chwilowa pionowa
-ax2.plot(T, vx) #wykres chwilowa pozioma
-ax3.plot(s, T) #wykres położenia od czasu
-ax4.plot(s, Sy) #tor rzutu 
+ax1.plot(T, vx) #wykres chwilowa pozioma
+ax2.plot(s, T) #wykres położenia od czasu
+ax3.plot(s, Sy) #tor rzutu 
 plt.show()
 
 
