@@ -28,8 +28,8 @@ def danewykres():
 fig, (ax1, ax2, ax3) = plt.subplots(3)
 
 danewykres()
-ax1.plot(T, vy) # wykres chwilowa pionowa
-ax1.plot(T, vx) #wykres chwilowa pozioma
+ax1.plot(T, vy) # wykres chwilowa pionowa i pozioma
+ax1.plot(T, vx) 
 ax2.plot(s, T) #wykres położenia od czasu
 ax3.plot(s, Sy) #tor rzutu 
 plt.show()
